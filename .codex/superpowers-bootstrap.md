@@ -18,6 +18,11 @@ When skills reference tools you don't have, substitute your equivalent tools:
 - Personal skills: `skill-name` (from ~/.codex/skills/)
 - Personal skills override superpowers skills when names match
 
+**Git Workflow Rules:**
+- Commit messages: Single line, concise (no multi-paragraph descriptions)
+- Never add AI attribution to commits (no "Generated with", no "Co-Authored-By")
+- Never push to remote - only commit locally, user handles pushing
+
 **Critical Rules:**
 - Before ANY task, review the skills list (shown below)
 - If a relevant skill exists, you MUST use `~/.codex/superpowers/.codex/superpowers-codex use-skill` to load it
