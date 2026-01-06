@@ -35,9 +35,8 @@ Start by understanding the current project context, then ask questions one at a 
 ## After the Design
 
 **Documentation:**
-- Write the validated design to `docs/plans/YYYY-MM-DD-<topic>-design.md`
+- Write the validated design to `~/.claude/<reponame>/plans/YYYY-MM-DD-<topic>-design.md` (create dir if needed)
 - Use elements-of-style:writing-clearly-and-concisely skill if available
-- Commit the design document to git
 
 **Implementation (if continuing):**
 - Ask: "Ready to start implementation?"
