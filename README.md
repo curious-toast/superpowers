@@ -62,7 +62,7 @@ Check that commands appear:
 1. Clone this repo locally
 2. Tell Codex:
    ```
-   Read and follow instructions from ~/development/repos/superpowers/.codex/INSTALL.md
+   Read and follow instructions from ~/development/personal/superpowers/.codex/INSTALL.md
    ```
 
 **Detailed docs:** [docs/README.codex.md](docs/README.codex.md)

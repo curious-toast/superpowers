@@ -6,7 +6,7 @@ Quick setup to enable superpowers skills in Codex.
 
 1. **Symlink superpowers to ~/.codex**:
    ```bash
-   ln -s ~/development/repos/superpowers ~/.codex/superpowers
+   ln -s ~/development/personal/superpowers ~/.codex/superpowers
    ```
 
 2. **Create personal skills directory**:

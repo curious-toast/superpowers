@@ -15,7 +15,7 @@ Complete guide for using Superpowers with OpenAI Codex.
 #### 1. Symlink Superpowers
 
 ```bash
-ln -s ~/development/repos/superpowers ~/.codex/superpowers
+ln -s ~/development/personal/superpowers ~/.codex/superpowers
 ```
 
 #### 2. Install Bootstrap
