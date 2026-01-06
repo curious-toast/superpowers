@@ -2,28 +2,20 @@
 
 Complete guide for using Superpowers with OpenAI Codex.
 
-## Quick Install
-
-Tell Codex:
-
-```
-Fetch and follow instructions from https://raw.githubusercontent.com/obra/superpowers/refs/heads/main/.codex/INSTALL.md
-```
-
-## Manual Installation
+## Installation
 
 ### Prerequisites
 
 - OpenAI Codex access
 - Shell access to install files
+- This repo cloned locally
 
 ### Installation Steps
 
-#### 1. Clone Superpowers
+#### 1. Symlink Superpowers
 
 ```bash
-mkdir -p ~/.codex/superpowers
-git clone https://github.com/obra/superpowers.git ~/.codex/superpowers
+ln -s /path/to/superpowers ~/.codex/superpowers
 ```
 
 #### 2. Install Bootstrap
@@ -113,10 +105,7 @@ Skills written for Claude Code are adapted for Codex with these mappings:
 
 ## Updating
 
-```bash
-cd ~/.codex/superpowers
-git pull
-```
+Pull the latest changes in your local clone of the repo.
 
 ## Troubleshooting
 
@@ -142,12 +131,3 @@ node --version
 
 Should show v14 or higher (v18+ recommended for ES module support).
 
-## Getting Help
-
-- Report issues: https://github.com/obra/superpowers/issues
-- Main documentation: https://github.com/obra/superpowers
-- Blog post: https://blog.fsck.com/2025/10/27/skills-for-openai-codex/
-
-## Note
-
-Codex support is experimental and may require refinement based on user feedback. If you encounter issues, please report them on GitHub.
